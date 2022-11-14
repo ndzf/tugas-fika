@@ -1,0 +1,78 @@
+body {
+    font-family: "Rubik", sans-serif;
+}
+
+.app-wrapper {
+    background-color: #fafafa;
+    min-height: 100vh;
+}
+
+@media (min-width: 1200px) {
+    .container,
+    .container-lg,
+    .container-md,
+    .container-sm,
+    .container-xl {
+        max-width: 720px;
+    }
+}
+
+.navbar-nav .nav-link.active,
+.navbar-nav .show > .nav-link {
+    color: #0d6efd;
+}
+
+.dataTables_wrapper .dataTables_filter {
+    padding-right: 0 !important;
+}
+
+.dataTables_wrapper .dataTables_paginate {
+    padding-right: 0 !important;
+}
+
+div.dataTables_wrapper div.dataTables_filter input {
+    margin-left: 0 !important;
+}
+
+.table thead {
+    background-color: #f2f4f6;
+}
+
+.table thead tr th {
+    font-size: 0.8rem;
+    text-transform: uppercase;
+    color: rgba(0, 0, 0, 0.55);
+    border: 0;
+    font-weight: 500;
+}
+
+.table tbody tr td {
+    font-size: 1rem;
+    border-style: dashed;
+}
+
+.table th:first-child,
+.table td:first-child {
+    padding-left: 1rem;
+}
+
+table.dataTable {
+    margin-top: 0px !important;
+}
+
+.btn-primary {
+    --bs-btn-color: #fff;
+    --bs-btn-bg: #0d6efd !important;
+    --bs-btn-border-color: #0d6efd;
+    --bs-btn-hover-color: #fff;
+    --bs-btn-hover-bg: #0b5ed7;
+    --bs-btn-hover-border-color: #0a58ca;
+    --bs-btn-focus-shadow-rgb: 49, 132, 253;
+    --bs-btn-active-color: #fff;
+    --bs-btn-active-bg: #0a58ca;
+    --bs-btn-active-border-color: #0a53be;
+    --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+    --bs-btn-disabled-color: #fff;
+    --bs-btn-disabled-bg: #0d6efd;
+    --bs-btn-disabled-border-color: #0d6efd;
+}
